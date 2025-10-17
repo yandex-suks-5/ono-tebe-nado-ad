@@ -60,3 +60,64 @@ body {
 address {
     font-style: italic;
 }
+.cover {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 135px;
+}
+
+
+.cover__title {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+  padding: 20px 30px 20px 0;
+}
+
+.aligned-text_right {
+  text-align: end;
+}
+
+.cover__description {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 78px;
+}
+
+.cover__description-text {
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+  line-height: 127%;
+  word-spacing: 18px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  font-size: 22px;
+  cursor: pointer;
+  color: #fff;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+}
