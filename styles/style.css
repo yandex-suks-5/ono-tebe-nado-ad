@@ -224,8 +224,9 @@ address {
 
 .about {
 	display: grid;
-	grid-template-columns: 430px auto;
+	grid-template-columns: 359px auto;
 	padding: 0 50px 180px 50px;
+	justify-content: center;
 }
 
 .about__logo {
@@ -244,3 +245,22 @@ address {
   height: 114px;
 }
 
+.about__description {
+	display: flex;
+	flex-direction: column;
+}
+
+.about__heading {
+  text-transform: uppercase;
+	margin: 100px 0;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.about__text {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	font-size: 20px;
+	font-weight: 400;
+}
