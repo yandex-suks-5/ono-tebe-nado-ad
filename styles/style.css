@@ -68,7 +68,7 @@ address {
   padding: 165px 50px 50px 50px;
   display: flex;
   flex-direction: column;
-  gap: 135px;
+  gap: 93px;
 }
 
 .cover__title {
@@ -87,7 +87,7 @@ address {
 
 .aligned-text_center {
   text-align: center;
-  padding: 20px 30px 20px 0;
+  margin: 20px 30px 20px 0;
 }
 
 .aligned-text_right {
@@ -99,7 +99,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 78px;
+  gap: 107px;
 }
 
 .cover__description-text {
@@ -134,7 +134,7 @@ address {
 .lots {
   display: flex;
   flex-direction: column;
-  padding: 180px 25px 181px;
+  padding: 180px 25px 155px;
 }
 
 .lots__heading {
@@ -220,8 +220,8 @@ address {
 
 .about {
   display: grid;
-  grid-template-columns: 319px auto;
-  padding: 0 50px 180px 70px;
+  grid-template-columns: 315px auto;
+  padding: 0 50px 180px 72px;
   justify-content: center;
 }
 
