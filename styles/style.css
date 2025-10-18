@@ -31,10 +31,6 @@ body {
   text-decoration: none;
 }
 
-.header__links-list-item-main {
-  list-style: none;
-}
-
 .header__links-list-item {
   position: relative;
   border-bottom: 1px solid #000;
@@ -48,6 +44,7 @@ body {
 
 .header__links-list-item-main {
   position: relative;
+  list-style: none;
   border-bottom: none;
 }
 
@@ -67,6 +64,7 @@ address {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   position: relative;
+	height: 757px;
   padding: 165px 50px 50px 50px;
   display: flex;
   flex-direction: column;
@@ -136,7 +134,7 @@ address {
 .lots {
   display: flex;
   flex-direction: column;
-  padding: 180px 50px 181px;
+  padding: 180px 25px 181px;
 }
 
 .lots__heading {
@@ -222,8 +220,8 @@ address {
 
 .about {
   display: grid;
-  grid-template-columns: 359px auto;
-  padding: 0 50px 180px 50px;
+  grid-template-columns: 319px auto;
+  padding: 0 50px 180px 70px;
   justify-content: center;
 }
 
@@ -258,6 +256,7 @@ address {
 .about__text {
   display: flex;
   flex-direction: column;
+	max-width: 693px;
   gap: 24px;
   font-size: 20px;
   font-weight: 400;
@@ -269,7 +268,7 @@ address {
   display: flex;
   align-items: flex-start;
 	justify-content: space-between;
-  padding: 0 50px 180px 50px;
+  padding: 0 50px 82px 2px;
 }
 
 .footer__info {
